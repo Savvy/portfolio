@@ -279,6 +279,8 @@ a.project-footer:hover svg {
   display: flex;
   align-items: center;
   background-color: var(--header);
+  text-decoration: none;
+  color: var(--inherit);
   height: 50px;
   border-radius: 12px;
   gap: 15px;
@@ -364,10 +366,23 @@ footer {
 @media screen and (max-width: 768px) {
   header h1.title {
     text-align: center;
+    font-size: 2.6em;
   }
 
   header .sub-header {
     flex-direction: column;
+  }
+
+  header .sub-header > h4 {
+    text-align: center;
+  }
+
+  .navbar > .container > .links {
+    width: 100%;
+  }
+
+  .theme-toggle {
+    margin-left: auto;
   }
 
   .projects {
