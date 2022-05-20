@@ -14,7 +14,6 @@ import { ReactComponent as Bitwarden } from '../icons/bitwarden.svg';
 
 import Project from '../components/Project';
 import Use from '../components/Use';
-import { ArrowRight } from 'react-bootstrap-icons';
 
 const Home = () => {
     return (
