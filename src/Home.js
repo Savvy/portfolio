@@ -38,48 +38,48 @@ const Home = () => {
                         </div>
                         <div className="project">
                             <div className="project-header">
-                                <div className="project-label">Main Project</div>
+                                <div className="project-label side-project">Side Project</div>
                             </div>
                             <div className="project-body">
                                 <div className="project-title">
-                                    <h4>Eleos</h4>
-                                    <span className="tags">Ionic, LogSnag, React.js</span>
+                                    <h4>NoName</h4>
+                                    <span className="tags">NuxtJS, NodeJS, MongoDb</span>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
-                                <a href='https://eleos.dev' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">eleos.dev</div>
+                                <a href='https://noname.red' target={'_blank'} rel='noreferrer' className="project-footer">
+                                    <div className="url">noname.red</div>
                                     <ArrowRight size={20} />
                                 </a>
                             </div>
                         </div>
                         <div className="project">
                             <div className="project-header">
-                                <div className="project-label">Main Project</div>
+                                <div className="project-label commission">Commission</div>
                             </div>
                             <div className="project-body">
                                 <div className="project-title">
-                                    <h4>Eleos</h4>
-                                    <span className="tags">Ionic, LogSnag, React.js</span>
+                                    <h4>DesertMC Discord Bot</h4>
+                                    <span className="tags">Javascript, discord.js</span>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
-                                <a href='https://eleos.dev' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">eleos.dev</div>
+                                <a href='https://discord.gg/desertmc' target={'_blank'} rel='noreferrer' className="project-footer">
+                                    <div className="url">discord.gg/desertmc</div>
                                     <ArrowRight size={20} />
                                 </a>
                             </div>
                         </div>
                         <div className="project">
                             <div className="project-header">
-                                <div className="project-label">Main Project</div>
+                                <div className="project-label commission">Commission</div>
                             </div>
                             <div className="project-body">
                                 <div className="project-title">
-                                    <h4>Eleos</h4>
-                                    <span className="tags">Ionic, LogSnag, React.js</span>
+                                    <h4>Enardo Servers</h4>
+                                    <span className="tags">NuxtJS</span>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
-                                <a href='https://eleos.dev' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">eleos.dev</div>
+                                <a href='https://enardoservers.com' target={'_blank'} rel='noreferrer' className="project-footer">
+                                    <div className="url">enardoservers.com</div>
                                     <ArrowRight size={20} />
                                 </a>
                             </div>

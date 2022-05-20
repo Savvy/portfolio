@@ -25,6 +25,14 @@ body {
   --light-primary: #4576c0;
 
   --desk-width: 1200px;
+
+  --main-project-bg: #99A1BA;
+  --main-project-text: #14141C;
+
+  --side-project-bg: #BA9999;
+  --side-project-text: #613131;
+  --commission-bg: #99BAAC;
+  --commission-text: #2D634C;
 }
 
 .dark-theme {
@@ -42,6 +50,9 @@ body {
   --theme-color: var(--light-primary);
   --primary-text: var(--light-primary);
   --icons-color: var(--dark-text);
+
+  --main-project-bg: var(--light-primary);
+  --main-project-text: #294267;
 }
 
 h5 {
@@ -196,13 +207,23 @@ section > h5 {
 
 .project-header > .project-label {
   border-radius: 12px 0px;
-  background: var(--theme-color);
+  background: var(--main-project-bg);
+  color: var(--main-project-text);
   display: inline-block;
   padding: 10px 18px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #14141C;
+}
+
+.project-header > .project-label.side-project {
+  background: var(--side-project-bg);
+  color: var(--side-project-text);
+}
+
+.project-header > .project-label.commission {
+  background: var(--commission-bg);
+  color: var(--commission-text);
 }
 
 .project-body {
@@ -324,6 +345,11 @@ footer {
 .footer .logo > svg {
   height: 60px;
   width: auto;
+}
+
+.footer .logo > svg path {
+  fill: var(--text-color);
+  filter: var(--text-color);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
