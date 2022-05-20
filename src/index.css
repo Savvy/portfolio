@@ -170,7 +170,7 @@ nav > .container > .links > a {
 
 .content {
   max-width: var(--desk-width);
-  margin: 40px auto;
+  margin: 40px auto 0;
   padding: 20px;
 }
 
@@ -362,11 +362,25 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header h1.title {
+    text-align: center;
+  }
+
+  header .sub-header {
+    flex-direction: column;
+  }
+
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
   .uses {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer footer {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 

@@ -92,88 +92,88 @@ const Home = () => {
                 <section>
                     <h5>Development</h5>
                     <div className="uses">
-                        <div className="use">
+                        <a href='https://code.visualstudio.com/' className="use">
                             <div className="use-icon" style={{background: '#3C99D4'}}>
                                 <VSCode />
                             </div>
                             <h6>VSCode</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://github.com' className="use">
                             <div className="use-icon" style={{background: '#24292F'}}>
                                 <Github />
                             </div>
                             <h6>Github</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://nuxtjs.org/' className="use">
                             <div className="use-icon" style={{background: '#00DC82'}}>
                                 <Nuxt />
                             </div>
                             <h6>Nuxt</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://medusajs.com/' className="use">
                             <div className="use-icon" style={{background: 'linear-gradient(224.82deg, #F796FF -7.3%, #7C3AED 101.29%)'}}>
                                 <Medusa />
                             </div>
                             <h6>Medusa</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://strapi.io/' className="use">
                             <div className="use-icon" style={{background: '#4E26E0'}}>
                                 <Strapi />
                             </div>
                             <h6>Strapi</h6>
-                        </div>
+                        </a>
                     </div>
                 </section>
                 <section>
                     <h5>Apps</h5>
                     <div className="uses">
-                    <div className="use">
+                        <a href='https://discord.com/' className="use">
                             <div className="use-icon" style={{background: '#5865F2'}}>
                                 <Discord />
                             </div>
                             <h6>Discord</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://www.figma.com/' className="use">
                             <div className="use-icon" style={{background: '#A259FF'}}>
                                 <Figma />
                             </div>
                             <h6>Figma</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://espanso.org/' className="use">
                             <div className="use-icon" style={{background: 'linear-gradient(207.38deg, #303030 18.35%, #232323 84.67%)'}}>
                                 <Espanso />
                             </div>
                             <h6>Espanso</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://brave.com' className="use">
                             <div className="use-icon" style={{background: '#FF2000'}}>
                                 <Brave />
                             </div>
                             <h6>Brave</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://getsharex.com/' className="use">
                             <div className="use-icon" style={{background: '#00A822'}}>
                                 <ShareX />
                             </div>
                             <h6>ShareX</h6>
-                        </div>
+                        </a>
                     </div>
                 </section>
                 <section>
                     <h5>Services</h5>
                     <div className="uses">
-                    <div className="use">
+                        <a href='https://render.com/' className="use">
                             <div className="use-icon" style={{background: '#0fe0b6'}}>
                                 <Render />
                             </div>
                             <h6>Render</h6>
-                        </div>
-                        <div className="use">
+                        </a>
+                        <a href='https://bitwarden.com/' className="use">
                             <div className="use-icon" style={{background: '#175DDC'}}>
                                 <Bitwarden />
                             </div>
                             <h6>Bitwarden</h6>
-                        </div>
+                        </a>
                     </div>
                 </section>
             </div>
