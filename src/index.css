@@ -22,10 +22,8 @@ body {
 
   --light: #F6F5F1;
   --light-header: #eee;
+  --light-primary: #4576c0;
 
-  --primary-color: #1488cc;
-  --gradient-1: #4481eb;
-  --gradient-2: #04befe;
   --desk-width: 1200px;
 }
 
@@ -35,12 +33,15 @@ body {
   --header: var(--dark-header);
   --primary-text: var(--dark-primary);
   --theme-color: var(--dark-primary);
+  --icons-color: var(--dark-text);
 }
 
 .light-theme {
   --bg-color: var(--light);
   --header: var(--light-header);
-  --theme-color: var(--dark-primary);
+  --theme-color: var(--light-primary);
+  --primary-text: var(--light-primary);
+  --icons-color: var(--dark-text);
 }
 
 h5 {
@@ -195,7 +196,7 @@ section > h5 {
 
 .project-header > .project-label {
   border-radius: 12px 0px;
-  background: #99A1BA;
+  background: var(--theme-color);
   display: inline-block;
   padding: 10px 18px;
   font-family: 'Poppins', sans-serif;
@@ -274,7 +275,6 @@ a.project-footer:hover svg {
 }
 
 .use .use-icon {
-  background: #04befe;
   border-radius: 12px;
   height: 50px;
   width: 50px;
@@ -286,12 +286,12 @@ a.project-footer:hover svg {
 .use .use-icon svg {
   height: 25px;
   width: auto;
-  fill: var(--text-color);
+  fill: var(--icons-color);
   transition: transform 0.5s ease-in-out;
 }
 
 .use-icon svg g {
-  fill: var(--text-color);
+  fill: var(--icons-color);
 }
 
 .home h2 {
