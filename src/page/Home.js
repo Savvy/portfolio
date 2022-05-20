@@ -12,6 +12,7 @@ import { ReactComponent as Brave } from '../icons/brave.svg';
 import { ReactComponent as ShareX } from '../icons/sharex.svg';
 import { ReactComponent as Bitwarden } from '../icons/bitwarden.svg';
 
+import Project from '../components/Project';
 import Use from '../components/Use';
 import { ArrowRight } from 'react-bootstrap-icons';
 
@@ -22,70 +23,21 @@ const Home = () => {
                 <h2>Projects</h2>
                 <section>
                     <div className="projects">
-                    <div className="project">
-                            <div className="project-header">
-                                <div className="project-label">Main Project</div>
-                            </div>
-                            <div className="project-body">
-                                <div className="project-title">
-                                    <h4>Eleos</h4>
-                                    <span className="tags">Ionic, LogSnag, React.js</span>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
-                                <a href='/' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">Coming Soon</div>
-                                    <ArrowRight size={20} />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project">
-                            <div className="project-header">
-                                <div className="project-label side-project">Side Project</div>
-                            </div>
-                            <div className="project-body">
-                                <div className="project-title">
-                                    <h4>NoName</h4>
-                                    <span className="tags">NodeJS, NuxtJS, MongoDb</span>
-                                </div>
-                                <p>NoName is an open sourced modern forum software. Built using NuxtJS on the frontend while also making use of NodeJs, Express, and MongoDb on the backend. Including multiple forms of authentication and extensive configuration.</p>
-                                <a href='https://noname.red' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">noname.red</div>
-                                    <ArrowRight size={20} />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project">
-                            <div className="project-header">
-                                <div className="project-label commission">Commission</div>
-                            </div>
-                            <div className="project-body">
-                                <div className="project-title">
-                                    <h4>DesertMC Discord Bot</h4>
-                                    <span className="tags">Javascript, discord.js</span>
-                                </div>
-                                <p>This bot was commissioned to include reaction roles, giveaways, various commands, action logging and a ticketing system. This bot also includes full configuration.</p>
-                                <a href='https://discord.gg/desertmc' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">discord.gg/desertmc</div>
-                                    <ArrowRight size={20} />
-                                </a>
-                            </div>
-                        </div>
-                        <div className="project">
-                            <div className="project-header">
-                                <div className="project-label commission">Commission</div>
-                            </div>
-                            <div className="project-body">
-                                <div className="project-title">
-                                    <h4>Enardo Servers</h4>
-                                    <span className="tags">Javascript, NuxtJS</span>
-                                </div>
-                                <p>Design and developed a landing page for a Rust game server as well as a theme for Tebex.io, a game server monetization platform. Project makes api calls to a rust game server api providing live player count.</p>
-                                <a href='https://enardoservers.com' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">enardoservers.com</div>
-                                    <ArrowRight size={20} />
-                                </a>
-                            </div>
-                        </div>
+                        <Project label="Main Project" title="Eleos"
+                            tags="Ionic, LogSnag, React.js" url="/" urlText="Coming Soon"
+                            description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar." />
+
+                        <Project label="Side Project" title="NoName" type='side-project'
+                            tags="NodeJS, NuxtJS, MongoDb" url="https://noname.red" urlText="noname.red"
+                            description= "NoName is an open sourced modern forum software. Built using NuxtJS on the frontend while also making use of NodeJs, Express, and MongoDb on the backend. Including multiple forms of authentication and extensive configuration." />
+
+                        <Project label="Commission" title="DesertMC Discord Bot" type='commission'
+                            tags="Javascript, discord.js" url="https://discord.gg/desertmc" urlText="discord.gg/desertmc"
+                            description= "This bot was commissioned to include reaction roles, giveaways, various commands, action logging and a ticketing system. This bot also includes full configuration." />
+
+                        <Project label="Commission" title="Enardo Servers" type='commission'
+                            tags="Javascript, NuxtJS" url="https://enardoservers.com" urlText="enardoservers.com"
+                            description= "Design and developed a landing page for a Rust game server as well as a theme for Tebex.io, a game server monetization platform. Project makes api calls to a rust game server api providing live player count." />
                     </div>
                 </section>
             </div>
