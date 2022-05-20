@@ -1,16 +1,18 @@
-import { ReactComponent as VSCode } from './icons/vsc.svg';
-import { ReactComponent as Github } from './icons/github.svg'
-import { ReactComponent as Nuxt } from './icons/nuxt.svg';
-import { ReactComponent as Medusa } from './icons/medusa.svg';
-import { ReactComponent as Strapi } from './icons/strapi.svg';
+import { ReactComponent as VSCode } from '../icons/vsc.svg';
+import { ReactComponent as Github } from '../icons/github.svg'
+import { ReactComponent as Nuxt } from '../icons/nuxt.svg';
+import { ReactComponent as Medusa } from '../icons/medusa.svg';
+import { ReactComponent as Strapi } from '../icons/strapi.svg';
 
-import { ReactComponent as Discord } from './icons/discord.svg';
-import { ReactComponent as Render } from './icons/render.svg';
-import { ReactComponent as Figma } from './icons/figma.svg';
-import { ReactComponent as Espanso } from './icons/espanso.svg';
-import { ReactComponent as Brave } from './icons/brave.svg';
-import { ReactComponent as ShareX } from './icons/sharex.svg';
-import { ReactComponent as Bitwarden } from './icons/bitwarden.svg';
+import { ReactComponent as Discord } from '../icons/discord.svg';
+import { ReactComponent as Render } from '../icons/render.svg';
+import { ReactComponent as Figma } from '../icons/figma.svg';
+import { ReactComponent as Espanso } from '../icons/espanso.svg';
+import { ReactComponent as Brave } from '../icons/brave.svg';
+import { ReactComponent as ShareX } from '../icons/sharex.svg';
+import { ReactComponent as Bitwarden } from '../icons/bitwarden.svg';
+
+import Use from '../components/Use';
 import { ArrowRight } from 'react-bootstrap-icons';
 
 const Home = () => {
@@ -92,88 +94,28 @@ const Home = () => {
                 <section>
                     <h5>Development</h5>
                     <div className="uses">
-                        <a href='https://code.visualstudio.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#3C99D4'}}>
-                                <VSCode />
-                            </div>
-                            <h6>VSCode</h6>
-                        </a>
-                        <a href='https://github.com' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#24292F'}}>
-                                <Github />
-                            </div>
-                            <h6>Github</h6>
-                        </a>
-                        <a href='https://nuxtjs.org/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#00DC82'}}>
-                                <Nuxt />
-                            </div>
-                            <h6>Nuxt</h6>
-                        </a>
-                        <a href='https://medusajs.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: 'linear-gradient(224.82deg, #F796FF -7.3%, #7C3AED 101.29%)'}}>
-                                <Medusa />
-                            </div>
-                            <h6>Medusa</h6>
-                        </a>
-                        <a href='https://strapi.io/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#4E26E0'}}>
-                                <Strapi />
-                            </div>
-                            <h6>Strapi</h6>
-                        </a>
+                        <Use icon={<VSCode />} name='VSCode' url='https://code.visualstudio.com/' background='#3C99D4' />
+                        <Use icon={<Github />} name='Github' url='https://github.com/' background='#24292F' />
+                        <Use icon={<Nuxt />} name='Nuxt.js' url='https://nuxtjs.org/' background='#00DC82' />
+                        <Use icon={<Medusa />} name='Medusa' url='https://medusajs.com/' background='linear-gradient(224.82deg, #F796FF -7.3%, #7C3AED 101.29%)' />
+                        <Use icon={<Strapi />} name='Strapi' url='https://strapi.io/' background='#4E26E0' />
                     </div>
                 </section>
                 <section>
                     <h5>Apps</h5>
                     <div className="uses">
-                        <a href='https://discord.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#5865F2'}}>
-                                <Discord />
-                            </div>
-                            <h6>Discord</h6>
-                        </a>
-                        <a href='https://www.figma.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#A259FF'}}>
-                                <Figma />
-                            </div>
-                            <h6>Figma</h6>
-                        </a>
-                        <a href='https://espanso.org/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: 'linear-gradient(207.38deg, #303030 18.35%, #232323 84.67%)'}}>
-                                <Espanso />
-                            </div>
-                            <h6>Espanso</h6>
-                        </a>
-                        <a href='https://brave.com' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#FF2000'}}>
-                                <Brave />
-                            </div>
-                            <h6>Brave</h6>
-                        </a>
-                        <a href='https://getsharex.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#00A822'}}>
-                                <ShareX />
-                            </div>
-                            <h6>ShareX</h6>
-                        </a>
+                        <Use icon={<Discord />} name='Discord' url='https://discord.com/' background='#5865F2' />
+                        <Use icon={<Figma />} name='Figma' url='https://www.figma.com/' background='#A259FF' />
+                        <Use icon={<Espanso />} name='Espanso' url='https://espanso.org/' background='linear-gradient(207.38deg, #303030 18.35%, #232323 84.67%)' />
+                        <Use icon={<Brave />} name='Brave' url='https://brave.com/' background='#FF2000' />
+                        <Use icon={<ShareX />} name='ShareX' url='https://getsharex.com/' background='#00A822' />
                     </div>
                 </section>
                 <section>
                     <h5>Services</h5>
                     <div className="uses">
-                        <a href='https://render.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#0fe0b6'}}>
-                                <Render />
-                            </div>
-                            <h6>Render</h6>
-                        </a>
-                        <a href='https://bitwarden.com/' target={'_blank'} rel='noreferrer' className="use">
-                            <div className="use-icon" style={{background: '#175DDC'}}>
-                                <Bitwarden />
-                            </div>
-                            <h6>Bitwarden</h6>
-                        </a>
+                        <Use icon={<Render />} name='Render' url='https://render.com/' background='#0fe0b6' />
+                        <Use icon={<Bitwarden />} name='Bitwarden' url='https://bitwarden.com/' background='#175DDC' />
                     </div>
                 </section>
             </div>

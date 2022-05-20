@@ -287,6 +287,11 @@ a.project-footer:hover svg {
   overflow: hidden;
   padding: 8px;
   cursor: pointer;
+  transition: background 0.25s ease-in-out;
+}
+
+.use:hover .use-icon {
+  background: transparent !important;
 }
 
 .use:hover .use-icon svg {
