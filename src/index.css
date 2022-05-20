@@ -97,6 +97,7 @@ nav > .container {
 
 .container {
   max-width: var(--desk-width);
+  padding: 5px 20px;
   margin: 0 auto;
 }
 
@@ -175,7 +176,7 @@ section > h5 {
 
 .projects {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: repeat(3, 1fr); /* 33% 33% 33%; */
   gap: 15px;
 }
 
@@ -246,7 +247,7 @@ a.project-footer:hover svg {
 
 .uses {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr); /* 25% 25% 25% 25%; */
   width: 100%;
   gap: 15px;
   margin-top: 15px;
@@ -264,11 +265,6 @@ a.project-footer:hover svg {
   cursor: pointer;
 }
 
-/* .use:hover .use-icon {
-  transform: scale(1.25);
-  margin-right: 10px;
-}
- */
 .use:hover .use-icon svg {
   transform: rotateY(360deg);
 }
@@ -285,12 +281,11 @@ a.project-footer:hover svg {
   display: flex;
   align-items: center;
   justify-content: center;
-/*   transition: transform 0.25s ease-in-out, margin 0.25s ease-in-out; */
 }
 
 .use .use-icon svg {
-  height: auto;
-  width: 25px;
+  height: 25px;
+  width: auto;
   fill: var(--text-color);
   transition: transform 0.5s ease-in-out;
 }
@@ -330,12 +325,24 @@ footer {
   height: 60px;
   width: auto;
 }
-/* .text-gradient {
-  background-clip: text;
-  --webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, var(--gradient-1) 0%, var(--gradient-2) 70%);
-} */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .uses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .uses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 @-webkit-keyframes spin{
 	100% {

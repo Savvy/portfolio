@@ -3,6 +3,14 @@ import { ReactComponent as Github } from './icons/github.svg'
 import { ReactComponent as Nuxt } from './icons/nuxt.svg';
 import { ReactComponent as Medusa } from './icons/medusa.svg';
 import { ReactComponent as Strapi } from './icons/strapi.svg';
+
+import { ReactComponent as Discord } from './icons/discord.svg';
+import { ReactComponent as Render } from './icons/render.svg';
+import { ReactComponent as Figma } from './icons/figma.svg';
+import { ReactComponent as Espanso } from './icons/espanso.svg';
+import { ReactComponent as Brave } from './icons/brave.svg';
+import { ReactComponent as ShareX } from './icons/sharex.svg';
+import { ReactComponent as Bitwarden } from './icons/bitwarden.svg';
 import { ArrowRight } from 'react-bootstrap-icons';
 
 const Home = () => {
@@ -119,22 +127,52 @@ const Home = () => {
                 <section>
                     <h5>Apps</h5>
                     <div className="uses">
-                        <div className="use">
-                            <div className="use-icon" style={{background: '#4E26E0'}}>
-                                <Strapi />
+                    <div className="use">
+                            <div className="use-icon" style={{background: '#5865F2'}}>
+                                <Discord />
                             </div>
-                            <h6>Strapi</h6>
+                            <h6>Discord</h6>
+                        </div>
+                        <div className="use">
+                            <div className="use-icon" style={{background: '#A259FF'}}>
+                                <Figma />
+                            </div>
+                            <h6>Figma</h6>
+                        </div>
+                        <div className="use">
+                            <div className="use-icon" style={{background: 'linear-gradient(207.38deg, #303030 18.35%, #232323 84.67%)'}}>
+                                <Espanso />
+                            </div>
+                            <h6>Espanso</h6>
+                        </div>
+                        <div className="use">
+                            <div className="use-icon" style={{background: '#FF2000'}}>
+                                <Brave />
+                            </div>
+                            <h6>Brave</h6>
+                        </div>
+                        <div className="use">
+                            <div className="use-icon" style={{background: '#00A822'}}>
+                                <ShareX />
+                            </div>
+                            <h6>ShareX</h6>
                         </div>
                     </div>
                 </section>
                 <section>
                     <h5>Services</h5>
                     <div className="uses">
-                        <div className="use">
-                            <div className="use-icon" style={{background: '#4E26E0'}}>
-                                <Strapi />
+                    <div className="use">
+                            <div className="use-icon" style={{background: '#0fe0b6'}}>
+                                <Render />
                             </div>
-                            <h6>Strapi</h6>
+                            <h6>Render</h6>
+                        </div>
+                        <div className="use">
+                            <div className="use-icon" style={{background: '#175DDC'}}>
+                                <Bitwarden />
+                            </div>
+                            <h6>Bitwarden</h6>
                         </div>
                     </div>
                 </section>
