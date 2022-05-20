@@ -32,8 +32,8 @@ const Home = () => {
                                     <span className="tags">Ionic, LogSnag, React.js</span>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
-                                <a href='https://eleos.dev' target={'_blank'} rel='noreferrer' className="project-footer">
-                                    <div className="url">eleos.dev</div>
+                                <a href='/' target={'_blank'} rel='noreferrer' className="project-footer">
+                                    <div className="url">Coming Soon</div>
                                     <ArrowRight size={20} />
                                 </a>
                             </div>
@@ -45,9 +45,9 @@ const Home = () => {
                             <div className="project-body">
                                 <div className="project-title">
                                     <h4>NoName</h4>
-                                    <span className="tags">NuxtJS, NodeJS, MongoDb</span>
+                                    <span className="tags">NodeJS, NuxtJS, MongoDb</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
+                                <p>NoName is an open sourced modern forum software. Built using NuxtJS on the frontend while also making use of NodeJs, Express, and MongoDb on the backend. Including multiple forms of authentication and extensive configuration.</p>
                                 <a href='https://noname.red' target={'_blank'} rel='noreferrer' className="project-footer">
                                     <div className="url">noname.red</div>
                                     <ArrowRight size={20} />
@@ -63,7 +63,7 @@ const Home = () => {
                                     <h4>DesertMC Discord Bot</h4>
                                     <span className="tags">Javascript, discord.js</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
+                                <p>This bot was commissioned to include reaction roles, giveaways, various commands, action logging and a ticketing system. This bot also includes full configuration.</p>
                                 <a href='https://discord.gg/desertmc' target={'_blank'} rel='noreferrer' className="project-footer">
                                     <div className="url">discord.gg/desertmc</div>
                                     <ArrowRight size={20} />
@@ -77,9 +77,9 @@ const Home = () => {
                             <div className="project-body">
                                 <div className="project-title">
                                     <h4>Enardo Servers</h4>
-                                    <span className="tags">NuxtJS</span>
+                                    <span className="tags">Javascript, NuxtJS</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar.</p>
+                                <p>Design and developed a landing page for a Rust game server as well as a theme for Tebex.io, a game server monetization platform. Project makes api calls to a rust game server api providing live player count.</p>
                                 <a href='https://enardoservers.com' target={'_blank'} rel='noreferrer' className="project-footer">
                                     <div className="url">enardoservers.com</div>
                                     <ArrowRight size={20} />

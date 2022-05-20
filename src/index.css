@@ -231,6 +231,7 @@ section > h5 {
   flex-direction: column;
   gap: 15px;
   padding: 10px 18px;
+  flex: 1;
 }
 
 .project-body > .project-title > h4 {
@@ -256,6 +257,7 @@ section > h5 {
 a.project-footer {
   text-decoration: none;
   color: var(--text-color);
+  margin-top: auto;
 }
 
 a.project-footer svg {
