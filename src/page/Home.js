@@ -42,8 +42,8 @@ const Home = () => {
                             tags="HTML5, CSS, Javascript" url="https://savvy.github.io/Pyronic/" urlText="savvy.github.io/pyronic"
                             description= "Designed and developed a landing page for an eSports Organization." />
                             
-                        <Project label="Commission" title="FirstCinema" type='side-project'
-                            tags="HTML5, CSS, Javascript, Vue.Js" url="https://firstcinema.github.io/" urlText="firstcinema.github.io/"
+                        <Project label="Side Project" title="FirstCinema" type='side-project'
+                            tags="HTML5, CSS, Javascript, Vue.Js" url="https://firstcinema.github.io/" urlText="firstcinema.github.io"
                             description= "Designed and developed a movie review site." />
                     </div>
                 </section>
