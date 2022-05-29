@@ -23,7 +23,7 @@ const Home = () => {
                 <section>
                     <div className="projects">
                         <Project label="Main Project" title="Eleos"
-                            tags="Ionic, LogSnag, React.js" url="/" urlText="Coming Soon"
+                            tags="Ionic, LogSnag, React.js" url="https://eleos.app" urlText="eleos.app"
                             description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar." />
 
                         <Project label="Side Project" title="NoName" type='side-project'
@@ -37,6 +37,14 @@ const Home = () => {
                         <Project label="Commission" title="Enardo Servers" type='commission'
                             tags="Javascript, NuxtJS" url="https://enardoservers.com" urlText="enardoservers.com"
                             description= "Design and developed a landing page for a Rust game server as well as a theme for Tebex.io, a game server monetization platform. Project makes api calls to a rust game server api providing live player count." />
+
+                        <Project label="Commission" title="Pyronic Landing" type='commission'
+                            tags="HTML5, CSS, Javascript" url="https://savvy.github.io/Pyronic/" urlText="savvy.github.io/pyronic"
+                            description= "Designed and developed a landing page for an eSports Organization." />
+                            
+                        <Project label="Commission" title="FirstCinema" type='side-project'
+                            tags="HTML5, CSS, Javascript, Vue.Js" url="https://firstcinema.github.io/" urlText="firstcinema.github.io/"
+                            description= "Designed and developed a movie review site." />
                     </div>
                 </section>
             </div>
