@@ -201,8 +201,16 @@ section > h5 {
 }
 
 .project-header {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  align-items: center;
+}
+
+.project-header > .project-source {
+  padding-right: 15px;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .project-header > .project-label {
@@ -395,6 +403,7 @@ footer {
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .uses {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -406,27 +415,31 @@ footer {
   }
 }
 
-@-webkit-keyframes spin{
+@-webkit-keyframes spin {
 	100% {
 		-webkit-transform: rotate(360deg);
 	}
 }
-@-moz-keyframes spin{
+
+@-moz-keyframes spin {
 	100% {
 		-moz-transform: rotate(360deg);
 	}
 }
-@-o-keyframes spin{
+
+@-o-keyframes spin {
 	100% {
 		-o-transform: rotate(360deg);
 	}
 }
-@-ms-keyframes spin{
+
+@-ms-keyframes spin {
 	100% {
 		-ms-transform: rotate(360deg);
 	}
 }
-@keyframes spin{
+
+@keyframes spin {
 	100% {
 		transform: rotate(360deg);
 	}

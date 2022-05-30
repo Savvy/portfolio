@@ -1,10 +1,13 @@
-import { ArrowRight } from 'react-bootstrap-icons';
+import { ArrowRight, Github } from 'react-bootstrap-icons';
 
 function Project(props) {
     return (
         <div className="project">
             <div className="project-header">
                 <div className={ `project-label ${props.type}` }>{ props.label }</div>
+                { props.hasOwnProperty('source') &&
+                    <a href={ props.source } target={'_blank'} className="project-source" rel="noreferrer"><Github size={25} /></a>
+                }
             </div>
             <div className="project-body">
                 <div className="project-title">

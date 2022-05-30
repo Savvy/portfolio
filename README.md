@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Malcom's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository for my portfolio site. Styled with CSS and built with [React](https://github.com/facebook/create-react-app).
+
+My portfolio is deployed using [Netlify](https://netlify.com) and can be viewed here at [malcom.sh](https://malcom.sh)
+
 
 ## Available Scripts
 
