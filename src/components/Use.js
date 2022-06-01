@@ -1,3 +1,4 @@
+import '../styles/uses.css';
 
 function Use(props) {
     return (

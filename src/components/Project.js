@@ -1,3 +1,4 @@
+import '../styles/projects.css';
 import { ArrowRight, Github } from 'react-bootstrap-icons';
 
 function Project(props) {

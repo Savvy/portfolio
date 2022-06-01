@@ -1,0 +1,54 @@
+.uses {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%;
+	gap: 15px;
+	margin-top: 15px;
+}
+
+.use {
+	display: flex;
+	align-items: center;
+	background-color: var(--header);
+	text-decoration: none;
+	color: var(--inherit);
+	height: 50px;
+	border-radius: 12px;
+	gap: 15px;
+	overflow: hidden;
+	padding: 8px;
+	cursor: pointer;
+	transition: background 0.25s ease-in-out;
+}
+
+.use:hover .use-icon {
+	background: transparent !important;
+}
+
+.use:hover .use-icon svg {
+	transform: rotateY(360deg);
+}
+
+.use>h6 {
+	font-size: 1.12em;
+}
+
+.use .use-icon {
+	border-radius: 12px;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.use .use-icon svg {
+	height: 25px;
+	width: auto;
+	fill: var(--icons-color);
+	transition: transform 0.5s ease-in-out;
+}
+
+.use-icon svg g {
+	fill: var(--icons-color);
+}
