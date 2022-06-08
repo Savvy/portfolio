@@ -10,9 +10,9 @@ const Header = () => {
                     <span></span>
                     <div className="socials">
                         <a href="https://github.com/Savvy"><Github size={30} /></a>
-                        <a href="https://twitter.com/whoSavvyFN"><Twitter size={30} /></a>
+                        <a href="https://twitter.com/malcomthedev"><Twitter size={30} /></a>
                         <a href="https://www.linkedin.com/in/malcom-green/"><Linkedin size={30} /></a>
-                        <a href="https://dribbble.com/whoSavvy"><Dribbble size={30} /></a>
+                        <a href="https://dribbble.com/malcomgreen"><Dribbble size={30} /></a>
                     </div>
                 </div>
             </div>
