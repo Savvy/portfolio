@@ -254,14 +254,6 @@ footer {
     margin-left: auto;
   }
 
-  .projects {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .uses {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .footer footer {
     text-align: center;
     justify-content: center;

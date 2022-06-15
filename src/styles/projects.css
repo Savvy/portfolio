@@ -88,3 +88,9 @@ a.project-footer svg {
 a.project-footer:hover svg {
 	margin-left: 5px;
 }
+
+@media screen and (max-width: 768px) {
+	.projects {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
