@@ -9,7 +9,7 @@
 .use {
 	display: flex;
 	align-items: center;
-	background-color: var(--header);
+	background: var(--header);
 	text-decoration: none;
 	color: var(--inherit);
 	height: 50px;
@@ -18,7 +18,7 @@
 	overflow: hidden;
 	padding: 8px;
 	cursor: pointer;
-	transition: background 0.25s ease-in-out;
+	transition: background 1.25s ease-in-out;
 }
 
 .use:hover .use-icon {
