@@ -8,8 +8,8 @@ const Footer = () => {
                 </div>
                 <hr />
                 <footer>
-                    <p>&copy; 2022 <span>Malcom Green</span></p>
-                    <p>Crafted with ❤️ by Malcom</p>
+                    <p>&copy; {new Date().getFullYear()} <strong>Malcom Green</strong></p>
+                    <p>Crafted with ❤️ by <strong>Malcom</strong></p>
                 </footer>
             </div>
         </div>
