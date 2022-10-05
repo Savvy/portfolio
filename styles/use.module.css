@@ -10,7 +10,7 @@
 	overflow: hidden;
 	padding: 8px;
 	cursor: pointer;
-	transition: background 0.4s ease-in-out;
+	transition: background 0.25s ease-in-out;
 }
 
 .use:hover .use-icon {
