@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const Navbar = () => {
     function toggleTheme() {
-        document.getElementsByClassName('App')[0].classList.toggle('dark-theme');
-        document.getElementsByClassName('App')[0].classList.toggle('light-theme');
+        document.getElementsByClassName('app')[0].classList.toggle('dark-theme');
+        document.getElementsByClassName('app')[0].classList.toggle('light-theme');
     }
     return (
         <nav className={styles.navbar}>
