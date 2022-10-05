@@ -1,0 +1,53 @@
+.use {
+	display: flex;
+	align-items: center;
+	background: var(--header);
+	text-decoration: none;
+	color: var(--inherit);
+	height: 50px;
+	border-radius: 12px;
+	gap: 15px;
+	overflow: hidden;
+	padding: 8px;
+	cursor: pointer;
+	transition: background 0.4s ease-in-out;
+}
+
+.use:hover .use-icon {
+	background: transparent !important;
+}
+
+.use:hover .use-icon svg {
+	transform: rotateY(360deg);
+}
+
+.use>h6 {
+	font-size: 1.12em;
+}
+
+.useIcon {
+	border-radius: 12px;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    position: relative;
+}
+
+.useIcon svg {
+	height: 25px;
+	width: auto;
+	fill: var(--icons-color);
+	transition: transform 0.5s ease-in-out;
+}
+
+.useIcon svg g {
+	fill: var(--icons-color);
+}
+
+@media screen and (max-width: 768px) {
+	.uses {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
