@@ -30,7 +30,7 @@ const Main = () => {
                             tags="Ionic, LogSnag, React.js" url="https://eleos.app" urlText="eleos.app"
                             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit nisl eu enim laoreet, id malesuada nisi eleifend. Sed condimentum in lacus eu pulvinar." />
 
-                        <Project label="Side Project" title="NoName" type='side-project'
+                        <Project label="Side Project" title="NoName" type='sideProject'
                             source='https://github.com/Savvy/noname'
                             tags="NodeJS, NuxtJS, MongoDb" url="https://noname.red" urlText="noname.red"
                             description="NoName is an open sourced modern forum software. Built using NuxtJS on the frontend while also making use of NodeJs, Express, and MongoDb on the backend. Including multiple forms of authentication and extensive configuration." />
@@ -53,7 +53,7 @@ const Main = () => {
                             tags="HTML5, CSS, Javascript" url="https://savvy.github.io/Pyronic/" urlText="savvy.github.io/pyronic"
                             description="Designed and developed a landing page for an eSports Organization." />
 
-                        <Project label="Side Project" title="FirstCinema" type='side-project'
+                        <Project label="Side Project" title="FirstCinema" type='sideProject'
                             source='https://github.com/firstcinema/firstcinema.github.io'
                             tags="HTML5, CSS, Javascript, Vue.Js" url="https://firstcinema.github.io/" urlText="firstcinema.github.io"
                             description="Designed and developed a movie review site." />
