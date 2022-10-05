@@ -1,0 +1,79 @@
+nav.navbar {
+    width: 100%;
+    background-color: var(--header);
+    padding: 20px 0;
+}
+
+.navContainer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.themeToggle {
+    color: var(--theme-color);
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.themeToggle:hover {
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    -o-animation: spin 10s linear infinite;
+    -ms-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.links>a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0 6px;
+    font-size: 1em;
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        width: 100%;
+    }
+
+    .themeToggle {
+        margin-left: auto;
+    }
+}
