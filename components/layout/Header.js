@@ -1,4 +1,4 @@
-import styles from '../styles/header.module.css'
+import styles from '../../styles/header.module.css'
 
 import { Github, Twitter, Linkedin, Dribbble } from 'react-bootstrap-icons';
 // import Image from 'next/image';
